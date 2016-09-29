@@ -1,0 +1,6 @@
+# Prints out "line" and the numbers in range
+
+count = 1
+while count < 11:
+	print ("Line %d") %count
+	count += 1
