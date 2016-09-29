@@ -1,0 +1,7 @@
+#create a dictionary based on a string and the number of times a letter appears "a":5, "b":2
+
+alist = list("Dianalovesdataandpython")
+dictionary = {}
+
+dictionary = [ (i,alist.count(i)) for i in alist ]
+print dictionary 
